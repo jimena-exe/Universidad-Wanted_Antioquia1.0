@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Wanted - Antioquia</string>
+    <string name="Ingresar">ingresar</string>
+    <string name="Bienvenido_a">Bienvenido a</string>
+    <string name="logo_1_completo">logo 1</string>
+    <string name="logo_2_w">logo 2</string>
+    <string name="text_como">¿Cómo desea ingresar?</string>
+    <string name="text_ya_tengo">Ya tengo un usuario</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="text_aun_no">¿Aún no tienes un usuario?</string>
+    <string name="text_o">ó</string>
+    <string name="ing_sin_reg">Ingresar sin registrar</string>
+
+    //para inicio de sesión
+    <string name="porfa_ingresa">Por favor, ingresa tus datos.</string>
+    <string name="email">E-Mail</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="cancelar">cancelar</string>
+
+    //para capa registrar
+    <string name="icono_user">icono_user</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_fecha_nac">Fecha de nacimiento</string>
+    <string name="text_cedula">Cédula</string>
+    <string name="text_correo">Correo</string>
+    <string name="text_ciudad">Ciudad</string>
+    <string name="text_celular">Celular</string>
+    <string name="text_info_adic">Información adicional</string>
+
+
+</resources>
