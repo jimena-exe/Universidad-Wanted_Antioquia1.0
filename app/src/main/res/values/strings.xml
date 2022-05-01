@@ -30,8 +30,8 @@
     //-----Para capa denunciar------
     <string name="denuncia_text_ini">En esta sección podrá hacer la denuncia de una persona que considere como desaparecida.</string>
     <string name="denuncia_text_ini2">Pese a la creencia general, no tiene que esperar 72 horas.</string>
+
     //spinner municipio
-    <string name="municipio">Municipio</string>
     <string-array name="municipios">
         <item>ABEJORRAL</item>
         <item>ABRIAQUI</item>
@@ -161,14 +161,14 @@
     </string-array>
 
     //spinner tipo de documento
-    <string name="tipo_de_doc">Tipo de documento</string>
+
     <string-array name="tipo_de_doc">
         <item>C.C</item>
         <item>T.I</item>
     </string-array>
 
     //spinner género
-    <string name="genero">Género</string>
+
     <string-array name="genero">
         <item>Masculino</item>
         <item>Femenino</item>

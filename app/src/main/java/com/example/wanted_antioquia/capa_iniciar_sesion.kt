@@ -16,7 +16,7 @@ class capa_iniciar_sesion : AppCompatActivity() {
 
     //botón lleva a la pag inicial "MainActivity"
     fun cancelarInicioSesion(view:View){
-        val intent = Intent(this,MainActivity::class.java).apply {  }
+        val intent = Intent(this,opciones::class.java).apply {  }
 
         startActivity(intent)
     }

@@ -9,13 +9,36 @@
     android:orientation="vertical"
     tools:context=".capa_registrar">
 
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/green_claro_btn"
+        android:text="Registrarse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="182dp"
+        android:layout_height="145dp"
         android:contentDescription="@string/icono_user"
         app:srcCompat="@drawable/download_icon_home_page_profile_user_icon_1320184041392976124_512"
         tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#D6D6D6"
+        android:text="Ingresa tus datos para poder registrarte en la apliación y generar un perfil."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
     <ScrollView
         android:layout_width="match_parent"

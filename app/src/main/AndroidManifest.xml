@@ -11,6 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WantedAntioquia">
         <activity
+            android:name=".capa_info_app"
+            android:exported="false" />
+        <activity
+            android:name=".capa_visualizacion_denuncia"
+            android:exported="false" />
+        <activity
+            android:name=".capa_denunciar1"
+            android:exported="false" />
+        <activity
+            android:name=".capa_lista_personas"
+            android:exported="false" />
+        <activity
             android:name=".capa_consejos"
             android:exported="false" />
         <activity
@@ -24,7 +36,7 @@
             android:exported="false" />
         <activity
             android:name=".capa_iniciar_sesion"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

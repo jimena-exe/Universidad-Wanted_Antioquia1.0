@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.e.capa_denunciar
 
 class capa_tecnicas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
