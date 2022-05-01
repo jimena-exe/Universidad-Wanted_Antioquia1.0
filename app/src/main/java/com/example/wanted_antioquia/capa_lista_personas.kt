@@ -1,7 +1,9 @@
 package com.example.wanted_antioquia
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 
@@ -22,6 +24,12 @@ class capa_lista_personas : AppCompatActivity() {
         arrayAdapter = ArrayAdapter(this,android.R.layout.simple_list_item_1,personas)
 
         lista_personas.adapter = arrayAdapter
+    }
+
+    fun volverAOpciones(view: View){
+        val intent = Intent(this, opciones::class.java).apply {  }
+
+        startActivity(intent)
     }
 
 
