@@ -31,6 +31,13 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    //botón lleva a la pag Opciones
+    fun volverAOpciones(view: View){
+        val intent = Intent(this, opciones::class.java).apply {  }
+
+        startActivity(intent)
+    }
+
 
 
 

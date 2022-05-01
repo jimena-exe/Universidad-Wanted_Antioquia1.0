@@ -11,6 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WantedAntioquia">
         <activity
+            android:name=".capa_consejos"
+            android:exported="false" />
+        <activity
+            android:name=".capa_tecnicas"
+            android:exported="false" />
+        <activity
+            android:name=".opciones"
+            android:exported="false" />
+        <activity
             android:name=".capa_registrar"
             android:exported="false" />
         <activity
